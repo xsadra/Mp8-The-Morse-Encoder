@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Mp8-The-Morse-Encoder.iml" filepath="$PROJECT_DIR$/.idea/Mp8-The-Morse-Encoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/encoder/encoder.iml" filepath="$PROJECT_DIR$/encoder/encoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/morse/morse.iml" filepath="$PROJECT_DIR$/morse/morse.iml" />
     </modules>
   </component>
 </project>
