@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Morse User Interface</title>
+</head>
+<body>
+    <h1>Morse User Interface</h1>
+    <span th:text="${result}"></span>
+    <form th:action="@{/}" th:object="${text}" method="post">
+        <label>Test to encode</label><br/>
+        <input type="text" th:field="*{text}"/><br/>
+
+        <button type="submit" >Submit</button>
+        <ul th:if="${#fields.hasErrors('*')}">
+            <li th:each="err : ${#fields.errors('*')}" th:text="${err}">Input is incorrect</li>
+        </ul>
+    </form>
+</body>
+</html>

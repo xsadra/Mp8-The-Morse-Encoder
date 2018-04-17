@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="encoder" />
+        <module name="encoderUi" />
         <module name="morse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="encoder" target="9" />
+      <module name="encoderUi" target="9" />
       <module name="morse" target="9" />
     </bytecodeTargetLevel>
   </component>
